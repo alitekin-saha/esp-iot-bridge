@@ -172,7 +172,7 @@ menu "Bridge Configuration"
 
     config BRIDGE_GPIO_RANGE_MAX
         int
-        default 33 if IDF_TARGET_ESP32
+        default 35 if IDF_TARGET_ESP32
         default 20 if IDF_TARGET_ESP32C2
         default 19 if IDF_TARGET_ESP32C3
         default 29 if IDF_TARGET_ESP32C5
